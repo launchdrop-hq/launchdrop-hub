@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Sirens — Watch, Shop, Everything</title>
+<meta name="description" content="Leonida Sirens: GTA VI launch-week clips, original merch and digital drops. Watch the Shorts, shop the collections — checkout at the official Fourthwall store.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="./" aria-label="Leonida Sirens home">
+    <img src="assets/logo.webp" alt="Leonida Sirens logo" width="44" height="44">
+    <span class="brand-text"><strong>LEONIDA SIRENS</strong><small>GTA VI Clips · Merch · Digital</small></span>
+  </a>
+  <a class="store-btn" href="https://leonidasirens-shop.fourthwall.com/" target="_blank" rel="noopener">Official Store ↗</a>
+</header>
+
+<section class="hero">
+  <h1>One city ends.<br><span class="hero-accent">A new one begins.</span></h1>
+  <p>Launch-week clips from Leonida, and the original merch built around the handover — Winter Drop 01, The Handover, and the Old Gold legacy run. Prices live on each product page; checkout is at the official store.</p>
+</section>
+
+<div class="layout">
+  <aside class="sidebar" aria-label="Categories">
+    <p class="sidebar-title">Browse</p>
+    <nav id="sideMenu" class="side-menu"></nav>
+    <div class="sidebar-note">
+      <p><strong>How buying works</strong></p>
+      <p>Pick a product, choose your size, then hit Buy — you'll finish checkout at our official Fourthwall store.</p>
+    </div>
+  </aside>
+
+  <main class="content">
+    <section id="shopView" aria-label="Shop">
+      <div class="shop-head">
+        <h2>Shop</h2>
+        <p id="resultCount" class="result-count"></p>
+      </div>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <section id="watchView" aria-label="Watch" hidden>
+      <div class="shop-head">
+        <h2>Watch — the launch Shorts</h2>
+        <p class="result-count">4 published Shorts</p>
+      </div>
+      <div id="watchGrid" class="grid watch-grid"></div>
+      <p class="watch-note">More clips land through launch week on the channel — <a href="https://youtube.com/shorts/9r6HBXHFmTI" target="_blank" rel="noopener">start with the Countdown</a>.</p>
+    </section>
+
+    <section id="detailView" aria-label="Product" hidden>
+      <button id="backBtn" class="back-btn" type="button">← Back to shop</button>
+      <div class="detail-wrap">
+        <div class="detail-media">
+          <div id="dMain" class="detail-main"></div>
+          <div id="dStrip" class="thumb-strip"></div>
+        </div>
+        <div class="detail-info">
+          <p id="dColl" class="card-coll"></p>
+          <h2 id="dName"></h2>
+          <p id="dDesc" class="detail-desc"></p>
+          <p class="size-title">Size / option — price updates with your pick</p>
+          <div id="dSizes" class="size-row"></div>
+          <p class="price-line"><span id="dPrice" class="price"></span> <span class="price-for">for <span id="dSizeLabel"></span></span></p>
+          <a id="dBuy" class="buy-btn" href="https://leonidasirens-shop.fourthwall.com/" target="_blank" rel="noopener">Buy at the official store ↗</a>
+          <p class="buy-note">Secure checkout, printing and shipping are handled by Fourthwall.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p><strong>Leonida Sirens</strong> — original artwork only. Unofficial fan-made designs; not affiliated with, sponsored or endorsed by any video-game publisher or developer.</p>
+  <p><a href="https://leonidasirens-shop.fourthwall.com/" target="_blank" rel="noopener">leonidasirens-shop.fourthwall.com</a> · Checkout for every product on this page happens at the official store.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
